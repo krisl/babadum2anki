@@ -37,12 +37,14 @@ public class Request {
     public static File request(Language lang) {
         parameters.put("lang", lang.key+"");
         try {
-            System.out.print(".");
+            Thread.sleep(500);
             return hcw.post(url, parameters);
         } catch (ProtocolException ex) {
             Logger.getLogger(App.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
             Logger.getLogger(App.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Request.class.getName()).log(Level.SEVERE, null, ex);
         }
         return null;
     }

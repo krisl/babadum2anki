@@ -200,7 +200,6 @@ public class BankWord {
                     }
                 }
                 if (newWords) {
-                    System.out.println(find);
                     find = 0;
                 } else {
                     find++;

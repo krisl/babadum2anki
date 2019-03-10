@@ -1,5 +1,7 @@
 # babadum2anki
-Turn the assets of Babadum into an Anki deck
+
+Turn the assets of Babadum into an Anki deck using a Java program.
+Requires Java 8.
 
 # Generating the Anki deck and resources
 

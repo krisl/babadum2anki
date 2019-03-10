@@ -14,7 +14,7 @@ public class App {
 
     public static void main(String[] args) {
         
-        BankWord bw = new BankWord(Language.PORTUGUESE);
+        BankWord bw = new BankWord(Language.FRENCH);
         boolean downloads = true;// false to skip downloading files.
         
         try {
