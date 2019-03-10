@@ -25,10 +25,12 @@ After having run the main, the following folders will have been created :
 2. Import the deck located at /data/anki/portuguese/anki-deck.txt 
 
 The fields are as follows :
-FIELD 1 : Image (FRONT)         The svg image tag.                  <img src="4271.svg"/>;0;[sound:ball_4271.ogg]
-FIELD 2 : Word + Audio (BACK)   The word and the audio file.        der Ball[sound:ball_4271.ogg]
+```bash
+FIELD 1 : Image (FRONT)         The svg image tag.        
+FIELD 2 : Word + Audio (BACK)   The word and the audio file.
 FIELD 3 : Difficulty (LEVEL)    The complexity of the word from 0 to 9.
 FIELD 4 : Audio file (AUDIO)    The audio file.
+```
 
 The deck is sorted by increasing difficulty.
 
